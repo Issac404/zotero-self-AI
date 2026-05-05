@@ -1,0 +1,16 @@
+self-ai-prefs-heading = AI Butler Parameter Configuration
+self-ai-prefs-description = Configure the parameters of the AI Manager large model.
+self-ai-prefs-apiKey = API Key
+self-ai-prefs-apiKey-description = Please enter the LLM API key here.
+self-ai-prefs-apiUrl = API URL
+self-ai-prefs-apiUrl-description = Please enter the LLM API URL here. e.g., https://api.openai.com/v1/chat/completions
+self-ai-prefs-model = Model Selection
+self-ai-prefs-model-description = Specify the large model used by the butler, such as gpt-4-turbo or gemini-2.5-pro.
+self-ai-prefs-temperature = LLM Temperature
+self-ai-prefs-temperature-description = Controls the temperature of the large model. Higher values (e.g., 1.2) are more creative, while lower values (e.g., 0.3) are more rigorous.
+self-ai-prefs-stream = Streaming Output Mode
+self-ai-prefs-stream-hint = When enabled, the butler will output results incrementally like typing; otherwise, it will present them all at once.
+self-ai-prefs-summaryPrompt = Butler Instruction Template
+self-ai-prefs-summaryPrompt-description = You can customize the butler's work instructions to meet your unique reading needs.
+self-ai-prefs-resetPrompt = Restore Default Instructions
+self-ai-prefs-apiUrl-example = API Example (OpenAI-compatible): https://api.openai.com/v1/chat/completions

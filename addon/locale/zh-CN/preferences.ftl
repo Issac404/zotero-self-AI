@@ -1,0 +1,16 @@
+self-ai-prefs-heading = AI 管家参数配置
+self-ai-prefs-description = 配置 AI管家 大模型参数。
+self-ai-prefs-apiKey = API 密钥
+self-ai-prefs-apiKey-description = 请在此输入大模型密钥。
+self-ai-prefs-apiUrl = API 接口地址
+self-ai-prefs-apiUrl-description = 请在此输入大模型接口地址。
+self-ai-prefs-model = 大模型选择
+self-ai-prefs-model-description = 指定管家使用的大模型，例如 gpt-4-turbo 或 gemini-2.5-pro。
+self-ai-prefs-temperature = 大模型温度
+self-ai-prefs-temperature-description = 控制大模型温度。值越高（如 1.2）则越有创意，值越低（如 0.3）则越严谨。
+self-ai-prefs-stream = 流式输出模式
+self-ai-prefs-stream-hint = 开启后，管家会像打字一样逐步输出结果；关闭则一次性呈现。
+self-ai-prefs-summaryPrompt = 管家指令模板
+self-ai-prefs-summaryPrompt-description = 您可以定制管家的工作指令，以满足您独特的阅读需求。
+self-ai-prefs-resetPrompt = 恢复默认指令
+self-ai-prefs-apiUrl-example = 接口示例（OpenAI 兼容）：https://api.openai.com/v1/chat/completions
