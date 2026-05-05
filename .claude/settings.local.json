@@ -5,7 +5,9 @@
       "PowerShell(npm install *)",
       "PowerShell(npm run *)",
       "PowerShell(git init *)",
-      "PowerShell(git add *)"
+      "PowerShell(git add *)",
+      "PowerShell(git config *)",
+      "PowerShell(git remote *)"
     ]
   }
 }

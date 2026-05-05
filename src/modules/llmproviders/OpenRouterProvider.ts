@@ -25,7 +25,7 @@ export class OpenRouterProvider implements ILlmProvider {
     return {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
-      "HTTP-Referer": "https://github.com/steven-jianhao-li/zotero-Self-AI", // Required by OpenRouter for rankings
+      "HTTP-Referer": "https://github.com/Issac404/zotero-Self-AI", // Required by OpenRouter for rankings
       "X-Title": "Zotero AI Butler", // Optional
     } as Record<string, string>;
   }

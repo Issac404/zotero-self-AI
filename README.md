@@ -2,15 +2,15 @@
 
 <!-- Badges -->
 <p>
-    <a href="https://github.com/steven-jianhao-li/zotero-self-AI/releases/latest"><img src="https://img.shields.io/github/v/release/steven-jianhao-li/zotero-self-AI" alt="Latest Release"></a>
-    <a href="https://github.com/steven-jianhao-li/zotero-self-AI/releases"><img src="https://img.shields.io/github/downloads/steven-jianhao-li/zotero-self-AI/total.svg" alt="Downloads"></a>
+    <a href="https://github.com/Issac404/zotero-self-AI/releases/latest"><img src="https://img.shields.io/github/v/release/Issac404/zotero-self-AI" alt="Latest Release"></a>
+    <a href="https://github.com/Issac404/zotero-self-AI/releases"><img src="https://img.shields.io/github/downloads/Issac404/zotero-self-AI/total.svg" alt="Downloads"></a>
     <a href="https://img.shields.io/badge/Using-Zotero%20Plugin%20Template-blue?style=flat-square&logo=github"><img src="https://img.shields.io/badge/Using-Zotero%20Plugin%20Template-blue?style=flat-square&logo=github" alt="Using Zotero Plugin Template"></a>
-    <a href="https://github.com/steven-jianhao-li/zotero-self-AI/stargazers"><img src="https://img.shields.io/github/stars/steven-jianhao-li/zotero-self-AI?style=social" alt="Stars"></a>
-    <a href="https://github.com/steven-jianhao-li/zotero-self-AI/network/members"><img src="https://img.shields.io/github/forks/steven-jianhao-li/zotero-self-AI?style=social" alt="Forks"></a>
+    <a href="https://github.com/Issac404/zotero-self-AI/stargazers"><img src="https://img.shields.io/github/stars/Issac404/zotero-self-AI?style=social" alt="Stars"></a>
+    <a href="https://github.com/Issac404/zotero-self-AI/network/members"><img src="https://img.shields.io/github/forks/Issac404/zotero-self-AI?style=social" alt="Forks"></a>
 </p>
 </div>
 
-## [点我查看 **AI Butler Wiki**——配置与使用文档](https://steven-jianhao-li.github.io/zotero-Self-AI/)
+## [点我查看 **AI Butler Wiki**——配置与使用文档](https://Issac404.github.io/zotero-Self-AI/)
 
 > **文献下载一时爽，打开阅读火葬场。**
 > **天书难啃骨头硬，管家嚼碎再喂粮。**
@@ -38,14 +38,14 @@ TA 是您7x24小时待命、不知疲倦且绝对忠诚的私人管家。
 3.  **一图总结**：全网首发——用一张图总结一篇论文，利用 Nano Banana Pro 为每篇论文生成学术海报式图片，帮助快速在脑海中建立论文知识体系。“一图胜千言”，快速把握论文核心，建立文章内容记忆点。
 4.  **思维导图**：自动生成论文思维导图，将长篇论文层次结构可视化呈现。支持放大缩小、导出PNG图片和OPML大纲格式，轻松复用到其他工具中。
 5.  **多文献综述**：右键分类即可对多篇论文进行综合分析，自动生成文献综述报告，创建独立的报告条目并关联所有原始PDF。
-6.  **沉浸阅读**：内置AI管家侧边栏，支持LaTeX公式渲染和大模型追问功能，一边读论文原文，一边看论文讲解，同时随时向大模型提问。还可以[固定侧边栏为AI管家](https://github.com/steven-jianhao-li/zotero-self-AI?tab=readme-ov-file#8-%E4%BE%A7%E8%BE%B9%E6%A0%8F-ai-%E7%AC%94%E8%AE%B0%E9%A2%84%E8%A7%88)，切换文献再也不会打断心流！
+6.  **沉浸阅读**：内置AI管家侧边栏，支持LaTeX公式渲染和大模型追问功能，一边读论文原文，一边看论文讲解，同时随时向大模型提问。还可以[固定侧边栏为AI管家](https://github.com/Issac404/zotero-self-AI?tab=readme-ov-file#8-%E4%BE%A7%E8%BE%B9%E6%A0%8F-ai-%E7%AC%94%E8%AE%B0%E9%A2%84%E8%A7%88)，切换文献再也不会打断心流！
 7.  **开源平台**：AI管家旨在提供一个自由、定制化的智能论文管理平台。所有模型提示词均可自定义——如何读文献，由您说了算；支持多个大模型的API——选择哪个大模型，也由您说了算。AI管家本身无任何收费渠道。
 
 ![AI管家直观效果](./assets/images/AI管家直观效果.png)
 
 推荐使用 Google Gemini 3 pro 模型总结论文，用 Gemini 讲解论文很容易理解。
 
-> 没有免费的 Google Gemini 3 pro API？参考[我的自用gcli2api配置教程](https://github.com/steven-jianhao-li/zotero-self-AI/discussions/54#discussioncomment-15199692)部署[gcli2api](https://github.com/su-kaka/gcli2api)获得个人几乎用不完的免费Gemini 3 pro访问额度！
+> 没有免费的 Google Gemini 3 pro API？参考[我的自用gcli2api配置教程](https://github.com/Issac404/zotero-self-AI/discussions/54#discussioncomment-15199692)部署[gcli2api](https://github.com/su-kaka/gcli2api)获得个人几乎用不完的免费Gemini 3 pro访问额度！
 
 > **您只负责思考，`Zotero-Self-AI` 将为您的阅读扫清障碍！**
 
@@ -232,7 +232,7 @@ AI 管家支持自定义侧边栏笔记的渲染样式。
 ### 10. 一图总结
 
 - 右键论文父条目，选择 "召唤AI管家一图总结" 即可体验（需要提前在快捷设置中配置“一图总结”密钥哦）
-- 🎨 **欢迎优化提示词**：相信您的结果一定比示例更好看！欢迎在 [Discussion](https://github.com/steven-jianhao-li/zotero-self-AI/discussions) 中分享您的提示词和效果，优秀的提示词有机会被选为默认模板！
+- 🎨 **欢迎优化提示词**：相信您的结果一定比示例更好看！欢迎在 [Discussion](https://github.com/Issac404/zotero-self-AI/discussions) 中分享您的提示词和效果，优秀的提示词有机会被选为默认模板！
 - **自动一图总结**：在"一图总结"设置页面中，可开启"自动添加一图总结"功能。开启后，每当论文AI总结完成时，系统会自动生成一图总结。⚠️ 注意：此功能默认关闭，开启时需二次确认，因为会消耗大量API费用。
 
 ![AI管家直观效果](./assets/images/AI管家直观效果.png)
@@ -257,7 +257,7 @@ AI管家支持对分类下的多篇论文进行综合分析，自动生成文献
 
 ![Literature Review Interface](assets/images/literature-review-config.png)
 
-> 📖 详细使用说明请参阅 [文献综述文档](https://steven-jianhao-li.github.io/zotero-Self-AI/#/literature-review)
+> 📖 详细使用说明请参阅 [文献综述文档](https://Issac404.github.io/zotero-Self-AI/#/literature-review)
 
 ### 12. 思维导图
 
@@ -308,8 +308,8 @@ AI管家支持自动生成论文思维导图，将长篇论文的层次结构可
 
 感谢以下贡献者对本项目的支持与帮助：
 
-<a href="https://contrib.rocks/image?repo=steven-jianhao-li/zotero-self-AI">
-  <img src="https://contrib.rocks/image?repo=steven-jianhao-li/zotero-self-AI" />
+<a href="https://contrib.rocks/image?repo=Issac404/zotero-self-AI">
+  <img src="https://contrib.rocks/image?repo=Issac404/zotero-self-AI" />
 </a>
 
 ## 致谢
@@ -325,4 +325,4 @@ AI管家支持自动生成论文思维导图，将长篇论文的层次结构可
 
 如果你觉得这个项目对你有帮助，请不要吝啬你的 ⭐️！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=steven-jianhao-li/zotero-self-AI&type=Date)](https://star-history.com/#steven-jianhao-li/zotero-self-AI&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Issac404/zotero-self-AI&type=Date)](https://star-history.com/#Issac404/zotero-self-AI&Date)

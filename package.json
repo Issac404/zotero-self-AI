@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steven-jianhao-li/zotero-self-AI.git"
+    "url": "git+https://github.com/Issac404/zotero-self-AI.git"
   },
   "author": "Steven Jianhao Li",
   "bugs": {
-    "url": "https://github.com/steven-jianhao-li/zotero-self-AI/issues"
+    "url": "https://github.com/Issac404/zotero-self-AI/issues"
   },
-  "homepage": "https://github.com/steven-jianhao-li/zotero-self-AI#readme",
+  "homepage": "https://github.com/Issac404/zotero-self-AI#readme",
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "start": "zotero-plugin serve",
