@@ -657,7 +657,7 @@ async function registerItemPaneSection() {
   try {
     const { registerItemPaneSection: registerSection } =
       await import("./modules/ItemPaneSection");
-    registerSection(handleOpenAIChat);
+    registerSection();
   } catch (error) {
     ztoolkit.log("[Self-AI] 注册条目面板区块失败:", error);
   }

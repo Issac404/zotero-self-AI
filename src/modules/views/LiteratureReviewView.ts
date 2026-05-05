@@ -29,6 +29,7 @@ import {
   DEFAULT_TABLE_TEMPLATE,
 } from "../../utils/prompts";
 import { getPref, setPref } from "../../utils/prefs";
+import { config } from "../../../package.json";
 
 /**
  * 提示词预设接口
@@ -39,22 +40,15 @@ interface PromptPreset {
   prompt: string;
 }
 
-const REVIEW_PRESETS_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewReviewPromptPresets";
-const REVIEW_CURRENT_PRESET_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewReviewPromptCurrentPreset";
-const TABLE_PRESETS_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewTablePromptPresets";
-const TABLE_CURRENT_PRESET_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewTablePromptCurrentPreset";
-const TARGETED_PROMPT_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewTargetedPrompt";
-const TARGETED_APPEND_TABLE_ENTRIES_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewTargetedAppendTableEntries";
-const TARGETED_NEW_TABLE_ENTRIES_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewTargetedNewTableEntries";
-const TARGETED_SELECTED_TABLE_ENTRIES_PREF_KEY =
-  "extensions.zotero.self-ai.literatureReviewTargetedSelectedTableEntries";
+const P = config.prefsPrefix;
+const REVIEW_PRESETS_PREF_KEY = `${P}.literatureReviewReviewPromptPresets`;
+const REVIEW_CURRENT_PRESET_PREF_KEY = `${P}.literatureReviewReviewPromptCurrentPreset`;
+const TABLE_PRESETS_PREF_KEY = `${P}.literatureReviewTablePromptPresets`;
+const TABLE_CURRENT_PRESET_PREF_KEY = `${P}.literatureReviewTablePromptCurrentPreset`;
+const TARGETED_PROMPT_PREF_KEY = `${P}.literatureReviewTargetedPrompt`;
+const TARGETED_APPEND_TABLE_ENTRIES_PREF_KEY = `${P}.literatureReviewTargetedAppendTableEntries`;
+const TARGETED_NEW_TABLE_ENTRIES_PREF_KEY = `${P}.literatureReviewTargetedNewTableEntries`;
+const TARGETED_SELECTED_TABLE_ENTRIES_PREF_KEY = `${P}.literatureReviewTargetedSelectedTableEntries`;
 const MAX_PRESETS = 5;
 const DEFAULT_TARGETED_QUESTION_PROMPT = `请仅基于给定的结构化表格回答以下问题。
 

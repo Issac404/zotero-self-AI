@@ -3,6 +3,7 @@
  */
 
 import { getPref, setPref, clearPref } from "../../../utils/prefs";
+import { config } from "../../../../package.json";
 import {
   createFormGroup,
   createStyledButton,
@@ -290,7 +291,7 @@ export class DataSettingsPage {
     clearPref("customPrompts");
 
     // 任务队列本地存储
-    Zotero.Prefs.clear("extensions.zotero.selfai.taskQueue", true);
+    Zotero.Prefs.clear(`${config.prefsPrefix}.taskQueue`, true);
 
     new ztoolkit.ProgressWindow("数据管理")
       .createLine({ text: "✅ 已恢复默认设置", type: "success" })

@@ -26,6 +26,7 @@
  */
 
 import { getPref, setPref } from "../utils/prefs";
+import { config } from "../../package.json";
 import { NoteGenerator } from "./noteGenerator";
 import { PDFExtractor } from "./pdfExtractor";
 
@@ -1633,7 +1634,7 @@ export class TaskQueueManager {
   private loadFromStorage(resetProcessingTasks: boolean): void {
     try {
       const stored = Zotero.Prefs.get(
-        "extensions.zotero.selfai.taskQueue",
+        `${config.prefsPrefix}.taskQueue`,
         true,
       ) as string;
       if (!stored) {
@@ -1708,7 +1709,7 @@ export class TaskQueueManager {
       };
 
       Zotero.Prefs.set(
-        "extensions.zotero.selfai.taskQueue",
+        `${config.prefsPrefix}.taskQueue`,
         JSON.stringify(data),
         true,
       );

@@ -7,7 +7,9 @@
       "PowerShell(git init *)",
       "PowerShell(git add *)",
       "PowerShell(git config *)",
-      "PowerShell(git remote *)"
+      "PowerShell(git remote *)",
+      "Bash(Get-ChildItem -Recurse -Depth 0 -Directory \"D:\\\\code\\\\zotero_plu\\\\zotero-myAI\")",
+      "Bash(Select-Object -ExpandProperty FullName)"
     ]
   }
 }
